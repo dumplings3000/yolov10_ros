@@ -26,7 +26,7 @@ catkin_make
 
 ## Basic Usage
 ```
-roslaunch yolov10_ros yolo_v8.launch
+roslaunch yolov10_ros yolo_v10.launch
 ```
 ### Node parameters
 
