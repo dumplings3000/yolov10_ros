@@ -1,6 +1,6 @@
-# Yolov8_ros
+# Yolov10_ros
 
-This package provides a ROS wrapper for [PyTorch-YOLOv10](https://github.com/ultralytics/ultralytics) based on PyTorch-YOLOv10. The package has been tested with Ubuntu 20.04.
+This package provides a ROS wrapper for [ultralytics](https://github.com/ultralytics/ultralytics) based on PyTorch-YOLOv10. The package has been tested with Ubuntu 20.04.
 
 # develop environment：
 - Ubuntu 20.04
@@ -23,15 +23,9 @@ catkin_make
 ```
 
 ## Basic Usage
-
-1. First, make sure to put your weights in the [weights](https://github.com/qq44642754a/Yolov8_ros/tree/master/yolov8_ros/weights) folder. 
-2.  The default settings (using `yolov8s.pt`) in the `launch/yolo_v8.launch` file should work, all you should have to do is change the image topic you would like to subscribe to:
-
 ```
 roslaunch yolov10_ros yolo_v8.launch
 ```
-
-
 ### Node parameters
 
 * **`sub_topic`** 
