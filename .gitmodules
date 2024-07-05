@@ -1,0 +1,3 @@
+[submodule "yolov10_ros/ultralytics"]
+	path = yolov10_ros/ultralytics
+	url = https://github.com/ultralytics/ultralytics.git
