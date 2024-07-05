@@ -17,6 +17,8 @@ pip install ultralytics
 ```
 cd /your/catkin_ws/src
 git clone https://github.com/dumplings3000/yolov10_ros.git
+cd yolov10_ros
+git submodule update --init --recursive
 cd ..
 catkin_make
 
