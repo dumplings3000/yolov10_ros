@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(yolov8_ros_msgs)
+project(yolov10_ros_msgs)
 
 
 find_package(catkin REQUIRED COMPONENTS

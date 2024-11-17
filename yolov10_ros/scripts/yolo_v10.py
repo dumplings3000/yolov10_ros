@@ -93,7 +93,7 @@ class Yolo_Dect:
         self.publish_image(self.frame, height, width)
 
         if self.visualize :
-            cv2.imshow('YOLOv8', self.frame)
+            cv2.imshow('YOLOv10', self.frame)
 
     def publish_image(self, imgdata, height, width):
         image_temp = Image()
@@ -108,6 +108,6 @@ class Yolo_Dect:
         self.image_pub.publish(image_temp)
 
 if __name__ == "__main__":
-    rospy.init_node('yolov8_ros', anonymous=True)
+    rospy.init_node('yolov10_ros', anonymous=True)
     yolo_dect = Yolo_Dect()
     rospy.spin()
